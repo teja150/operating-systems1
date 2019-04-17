@@ -29,6 +29,11 @@ int main()//Main Function
 
 printf("Enter Total Number Of Students\n");
 scanf("%d",&n);
+  if(n>10)
+{
+printf("maximum 10 students");
+return 0;
+}
 for(i=0;i<n;i++)
 {
 printf("Enter the name of Student[%d]\n",(i+1));
