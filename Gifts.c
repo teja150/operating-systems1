@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-#include<string.h>
+
 int i,j,n;//global variables
 typedef struct//A Structure which contains name,position and gifts of a Student
 {
@@ -24,7 +24,7 @@ a[j]=a[j+1];
 a[j+1]=temp;
 }}}}}
 
-int main()//Main Function
+void main()//Main Function
 {
 
 printf("Enter Total Number Of Students\n");
