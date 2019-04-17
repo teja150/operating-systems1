@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 int i,j,n;//global variables
 typedef struct//A Structure which contains name,position and gifts of a Student
